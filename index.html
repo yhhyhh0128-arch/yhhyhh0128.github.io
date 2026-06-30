@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>기술가정 퀴즈</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    font-family:'맑은 고딕', sans-serif;
+}
+
+body{
+    margin:0;
+    background:#f0f2f5;
+    display:flex;
+    justify-content:center;
+    min-height:100vh;
+}
+
+.phone{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    background:white;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+.card{
+    background:#fafafa;
+    border-radius:15px;
+    padding:20px;
+    margin-top:20px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+button{
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    background:#4CAF50;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+.choice{
+    display:block;
+    margin:10px 0;
+    padding:15px;
+    background:#eee;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+input[type=text]{
+    width:100%;
+    padding:15px;
+    font-size:16px;
+}
+
+.hidden{
+    display:none;
+}
+
+.result{
+    text-align:center;
+    font-size:30px;
+    margin:20px 0;
+}
+
+.correct{
+    color:green;
+}
+
+.wrong{
+    color:red;
+}
+
+.explanation{
+    margin-top:15px;
+    background:#fff3cd;
+    padding:10px;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="phone">
+
+    <h1>📚 기술가정 퀴즈</h1>
+
+    <div id="startScreen" class="card">
+
+        <h3>문제 수 선택</h3>
+
+        <select id="count">
+            <option value="10">10문제</option>
+            <option value="30">30문제</option>
+            <option value="50">50문제</option>
+        </select>
+
+        <h3>난이도 선택</h3>
+
+        <select id="difficulty">
+            <option value="1">1단계</option>
+            <option value="2">2단계</option>
+            <option value="3">3단계</option>
+            <option value="all">전체</option>
+        </select>
+
+        <button onclick="startQuiz()">시작하기</button>
+    </div>
+
+    <div id="quizScreen" class="card hidden">
+
+        <h3 id="progress"></h3>
+
+        <h2 id="question"></h2>
+
+        <div id="choices"></div>
+
+        <input type="text" id="shortAnswer" class="hidden" placeholder="답 입력">
+
+        <button onclick="submitAnswer()">정답 제출</button>
+
+        <div id="feedback"></div>
+
+        <button id="nextBtn"
+        class="hidden"
+        onclick="nextQuestion()">
+        다음 문제
+        </button>
+
+    </div>
+
+    <div id="endScreen" class="card hidden">
+        <h2>🎉 퀴즈 종료</h2>
+
+        <p id="score"></p>
+
+        <button onclick="location.reload()">
+            다시 하기
+        </button>
+    </div>
+
+</div>
+
+<script>
+
+let allQuestions=[];
+let quiz=[];
+let current=0;
+let correct=0;
+let wrong=0;
+let selectedAnswer=null;
+
+fetch("questions.json")
+.then(r=>r.json())
+.then(data=>{
+    allQuestions=data;
+});
+
+function shuffle(array){
+    return array.sort(()=>Math.random()-0.5);
+}
+
+function startQuiz(){
+
+    let count=
+        parseInt(document.getElementById("count").value);
+
+    let difficulty=
+        document.getElementById("difficulty").value;
+
+    let filtered;
+
+    if(difficulty==="all"){
+        filtered=allQuestions;
+    }
+    else{
+        filtered=
+        allQuestions.filter(q=>
+            q.difficulty==difficulty);
+    }
+
+    quiz=shuffle(filtered).slice(0,count);
+
+    current=0;
+    correct=0;
+    wrong=0;
+
+    document.getElementById("startScreen")
+        .classList.add("hidden");
+
+    document.getElementById("quizScreen")
+        .classList.remove("hidden");
+
+    showQuestion();
+}
+
+function showQuestion(){
+
+    selectedAnswer=null;
+
+    let q=quiz[current];
+
+    document.getElementById("feedback").innerHTML="";
+    document.getElementById("nextBtn").classList.add("hidden");
+
+    document.getElementById("progress").innerText=
+        `${current+1} / ${quiz.length}`;
+
+    document.getElementById("question").innerText=
+        q.question;
+
+    let choicesDiv=document.getElementById("choices");
+    choicesDiv.innerHTML="";
+
+    let shortInput=document.getElementById("shortAnswer");
+
+    if(q.type==="multiple"){
+
+        shortInput.classList.add("hidden");
+
+        q.choices.forEach((c,index)=>{
+
+            let div=document.createElement("div");
+
+            div.className="choice";
+            div.innerText=c;
+
+            div.onclick=()=>{
+                document.querySelectorAll(".choice")
+                    .forEach(x=>x.style.background="#eee");
+
+                div.style.background="#b3e5fc";
+                selectedAnswer=index;
+            };
+
+            choicesDiv.appendChild(div);
+        });
+    }
+
+    else{
+
+        shortInput.value="";
+        shortInput.classList.remove("hidden");
+    }
+}
+
+function submitAnswer(){
+
+    let q=quiz[current];
+
+    let isCorrect=false;
+
+    if(q.type==="multiple"){
+
+        if(selectedAnswer===null){
+            alert("답을 선택하세요.");
+            return;
+        }
+
+        isCorrect=(selectedAnswer===q.answer);
+    }
+
+    else{
+
+        let user=
+        document.getElementById("shortAnswer")
+        .value.trim();
+
+        if(user===""){
+            alert("답을 입력하세요.");
+            return;
+        }
+
+        if(user===q.answer){
+            isCorrect=true;
+        }
+
+        if(q.alternativeAnswers){
+
+            if(q.alternativeAnswers.includes(user)){
+                isCorrect=true;
+            }
+        }
+    }
+
+    let feedback=document.getElementById("feedback");
+
+    if(isCorrect){
+
+        correct++;
+
+        feedback.innerHTML=
+        `<div class="result correct">⭕ 정답!</div>`;
+    }
+
+    else{
+
+        wrong++;
+
+        let answerText=
+        q.type==="multiple"
+        ? q.choices[q.answer]
+        : q.answer;
+
+        feedback.innerHTML=
+        `
+        <div class="result wrong">❌ 오답!</div>
+
+        <div class="explanation">
+        <b>정답:</b> ${answerText}<br><br>
+        <b>풀이:</b><br>
+        ${q.explanation}
+        </div>
+        `;
+    }
+
+    document.getElementById("nextBtn")
+        .classList.remove("hidden");
+}
+
+function nextQuestion(){
+
+    current++;
+
+    if(current>=quiz.length){
+
+        document.getElementById("quizScreen")
+            .classList.add("hidden");
+
+        document.getElementById("endScreen")
+            .classList.remove("hidden");
+
+        document.getElementById("score").innerHTML=
+        `
+        맞은 개수 : ${correct}개<br><br>
+        틀린 개수 : ${wrong}개<br><br>
+        점수 : ${Math.round(correct/quiz.length*100)}점
+        `;
+
+        return;
+    }
+
+    showQuestion();
+}
+
+</script>
+
+</body>
+</html>
