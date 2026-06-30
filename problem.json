@@ -1,0 +1,918 @@
+[
+  {
+    "id": 1,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "생애 설계란 무엇인가?",
+    "choices": [
+      "즉흥적으로 살아가는 것",
+      "인생의 목표를 설정하고 실현 방법을 찾는 장기 계획",
+      "직업만 계획하는 것",
+      "경제 생활만 계획하는 것"
+    ],
+    "answer": 1,
+    "explanation": "생애 설계는 인생의 목표를 설정하고 이를 실현하기 위한 종합적이고 장기적인 계획이다."
+  },
+  {
+    "id": 2,
+    "difficulty": 1,
+    "type": "short",
+    "question": "생애 설계의 중요성 중 미래 생활을 예측하고 준비하는 것을 무엇이라고 하는가?",
+    "answer": "미래 생활 예측 및 준비",
+    "explanation": "생애 설계를 통해 미래 생활을 예측하고 준비할 수 있다."
+  },
+  {
+    "id": 3,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "다음 중 생애 설계의 중요성이 아닌 것은?",
+    "choices": [
+      "생활 변화에 현명하게 대처",
+      "삶에 책임감 형성",
+      "다른 사람의 삶 대신 결정",
+      "만족스러운 삶 추구"
+    ],
+    "answer": 2,
+    "explanation": "생애 설계는 자신의 삶을 계획하는 것이다."
+  },
+  {
+    "id": 4,
+    "difficulty": 1,
+    "type": "short",
+    "question": "영아기의 발달 과업 두 가지를 쓰시오.",
+    "answer": "젖떼기, 애착관계형성",
+    "alternativeAnswers": [
+      "애착관계형성, 젖떼기",
+      "젖떼기 애착관계형성"
+    ],
+    "explanation": "영아기의 발달 과업에는 젖떼기, 애착 관계 형성, 말하기 등이 있다."
+  },
+  {
+    "id": 5,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "자아 정체감을 형성하는 시기는?",
+    "choices": [
+      "영아기",
+      "유아기",
+      "청소년기",
+      "노년기"
+    ],
+    "answer": 2,
+    "explanation": "청소년기의 주요 발달 과업은 자아 정체감 형성이다."
+  },
+  {
+    "id": 6,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "20~39세에 해당하는 생애 주기는?",
+    "choices": [
+      "청소년기",
+      "성년기",
+      "중년기",
+      "노년기"
+    ],
+    "answer": 1,
+    "explanation": "성년기는 만 20~39세이다."
+  },
+  {
+    "id": 7,
+    "difficulty": 1,
+    "type": "short",
+    "question": "생애 설계의 원리 중 상황에 따라 계획을 조정하는 것을 무엇이라고 하는가?",
+    "answer": "융통성",
+    "explanation": "상황에 따라 계획을 조정하는 원리는 융통성이다."
+  },
+  {
+    "id": 8,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "생애 설계의 원리 중 욕구와 현실을 고려하는 것은?",
+    "choices": [
+      "현실성",
+      "자발성",
+      "종합성",
+      "적합성"
+    ],
+    "answer": 0,
+    "explanation": "현실성은 욕구와 현실을 함께 고려하는 것이다."
+  },
+  {
+    "id": 9,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "잠재 능력과 소질을 의미하는 것은?",
+    "choices": [
+      "흥미",
+      "가치관",
+      "적성",
+      "성격"
+    ],
+    "answer": 2,
+    "explanation": "적성은 잠재 능력과 소질을 의미한다."
+  },
+  {
+    "id": 10,
+    "difficulty": 1,
+    "type": "short",
+    "question": "생각과 행동의 믿음이나 신념을 무엇이라고 하는가?",
+    "answer": "가치관",
+    "explanation": "가치관은 생각과 행동의 기준이 되는 믿음이나 신념이다."
+  },
+  {
+    "id": 11,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "다음 중 왜곡된 직업관이 아닌 것은?",
+    "choices": ["성 역할 고정관념", "금전 만능주의", "사회적 역할 실현", "학벌 중시"],
+    "answer": 2,
+    "explanation": "사회적 역할 실현은 바람직한 직업관이다."
+  },
+  {
+    "id": 12,
+    "difficulty": 1,
+    "type": "short",
+    "question": "직업을 수행하는 사람들에게 요구되는 행동 규범을 무엇이라고 하는가?",
+    "answer": "직업윤리",
+    "explanation": "직업윤리는 직업인에게 요구되는 행동 규범이다."
+  },
+  {
+    "id": 13,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "공동체에 봉사한다는 자세를 무엇이라고 하는가?",
+    "choices": ["책임의식", "소명의식", "전문의식", "봉사의식"],
+    "answer": 3,
+    "explanation": "공동체에 봉사하는 자세를 봉사의식이라고 한다."
+  },
+  {
+    "id": 14,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "사회적으로 의미 있는 일을 하고 최선을 다하는 자세는?",
+    "choices": ["봉사의식", "소명의식", "책임의식", "흥미"],
+    "answer": 1,
+    "explanation": "소명의식은 사회적으로 의미 있는 일을 하고 최선을 다하는 자세이다."
+  },
+  {
+    "id": 15,
+    "difficulty": 1,
+    "type": "short",
+    "question": "역할과 책무를 수행하며 책임을 다하는 자세를 무엇이라 하는가?",
+    "answer": "책임의식",
+    "explanation": "책임의식은 자신의 역할과 책무를 다하는 자세이다."
+  },
+  {
+    "id": 16,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "합계출산율이 2.1명 이하인 상태는?",
+    "choices": ["저출산", "초저출산", "고령사회", "초고령사회"],
+    "answer": 0,
+    "explanation": "합계출산율이 2.1명 이하인 상태를 저출산이라고 한다."
+  },
+  {
+    "id": 17,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "합계출산율이 1.3명 이하인 상태는?",
+    "choices": ["고령화", "저출산", "초저출산", "초고령사회"],
+    "answer": 2,
+    "explanation": "합계출산율이 1.3명 이하이면 초저출산이다."
+  },
+  {
+    "id": 18,
+    "difficulty": 1,
+    "type": "short",
+    "question": "만 65세 이상 인구 비율이 14% 이상인 사회를 무엇이라고 하는가?",
+    "answer": "고령사회",
+    "explanation": "65세 이상 인구 비율이 14% 이상이면 고령사회이다."
+  },
+  {
+    "id": 19,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "만 65세 이상 인구 비율이 20% 이상인 사회는?",
+    "choices": ["고령화 사회", "고령사회", "초고령사회", "노년사회"],
+    "answer": 2,
+    "explanation": "65세 이상 인구 비율이 20% 이상이면 초고령사회이다."
+  },
+  {
+    "id": 20,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "저출산의 원인이 아닌 것은?",
+    "choices": ["육아 비용 상승", "고용 불안정", "평균 수명 감소", "결혼 가치관 변화"],
+    "answer": 2,
+    "explanation": "평균 수명 감소는 저출산의 원인이 아니다."
+  },
+  {
+    "id": 21,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "저출산·고령화의 공통 영향은?",
+    "choices": ["생산 가능 인구 증가", "국가 경쟁력 약화", "노동 시간 감소", "평균 연령 감소"],
+    "answer": 1,
+    "explanation": "저출산·고령화는 국가 경쟁력을 약화시킨다."
+  },
+  {
+    "id": 22,
+    "difficulty": 2,
+    "type": "short",
+    "question": "고령화 대비책 중 경제적으로 준비하는 방법은 무엇인가?",
+    "answer": "연금",
+    "explanation": "연금은 노후를 위한 대표적인 경제적 준비 방법이다."
+  },
+  {
+    "id": 23,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "고령화 대비책 중 사회 차원의 대책이 아닌 것은?",
+    "choices": ["정년 연장", "노인 일자리 창출", "건강 관리", "재취업 기회 확대"],
+    "answer": 2,
+    "explanation": "건강 관리는 개인 차원의 대책이다."
+  },
+  {
+    "id": 24,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "일·가정 양립의 필요성이 아닌 것은?",
+    "choices": ["가정의 행복", "기업 생산성 증가", "국가 경쟁력 향상", "실업률 증가"],
+    "answer": 3,
+    "explanation": "실업률 증가는 일·가정 양립의 필요성이 아니다."
+  },
+  {
+    "id": 25,
+    "difficulty": 2,
+    "type": "short",
+    "question": "가사와 돌봄 부담 때문에 자녀 출산을 꺼리는 현상은 무엇과 관련이 있는가?",
+    "answer": "저출산",
+    "explanation": "가사와 돌봄 부담 증가는 저출산 문제와 관련된다."
+  },
+  {
+    "id": 26,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "가사 노동 분담 문제의 원인으로 가장 알맞은 것은?",
+    "choices": ["전문 지식 부족", "성 역할 고정관념", "경제 성장", "평균 수명 증가"],
+    "answer": 1,
+    "explanation": "성 역할 고정관념은 가사 노동 분담 문제를 초래한다."
+  },
+  {
+    "id": 27,
+    "difficulty": 2,
+    "type": "short",
+    "question": "건조기, 식기세척기 등을 활용하는 가사노동 관리 방법은?",
+    "answer": "기계화",
+    "explanation": "기계화는 기계를 활용하여 가사노동을 줄이는 방법이다."
+  },
+  {
+    "id": 28,
+    "difficulty": 2,
+    "type": "short",
+    "question": "배달 서비스나 전문기관을 이용하는 가사노동 관리 방법은?",
+    "answer": "사회화",
+    "explanation": "전문기관이나 배달 서비스를 이용하는 것을 사회화라고 한다."
+  },
+  {
+    "id": 29,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "출퇴근 시간을 자율적으로 조정하는 제도는?",
+    "choices": ["재택근무제", "원격근무제", "시차 출퇴근제", "육아휴직제"],
+    "answer": 2,
+    "explanation": "출퇴근 시간을 자유롭게 조정하는 제도는 시차 출퇴근제이다."
+  },
+  {
+    "id": 30,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "근로자가 회사에 출근하지 않고 집에서 일하는 제도는?",
+    "choices": ["재택근무제", "원격근무제", "탄력근무제", "시차출퇴근제"],
+    "answer": 0,
+    "explanation": "집에서 근무하는 것은 재택근무제이다."
+  },
+  {
+    "id": 31,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "출장지 근처 스마트워크센터에서 근무하는 제도는?",
+    "choices": ["재택근무제", "원격근무제", "선택근무제", "육아휴직제"],
+    "answer": 1,
+    "explanation": "스마트워크센터 등을 이용하는 것은 원격근무제이다."
+  },
+  {
+    "id": 32,
+    "difficulty": 2,
+    "type": "short",
+    "question": "임신 중인 여성 근로자에게 출산 전후 90일 휴가를 보장하는 제도는?",
+    "answer": "출산 전후 휴가제",
+    "explanation": "출산 전후 휴가제는 출산 전후 90일의 휴가를 보장한다."
+  },
+  {
+    "id": 33,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "배우자 출산 시 제공되는 유급 휴가는 며칠인가?",
+    "choices": ["10일", "15일", "20일", "30일"],
+    "answer": 2,
+    "explanation": "배우자 출산 휴가제는 20일의 유급 휴가를 제공한다."
+  },
+  {
+    "id": 34,
+    "difficulty": 2,
+    "type": "short",
+    "question": "만 8세 이하 자녀를 둔 직장인이 최대 1년 동안 휴직할 수 있는 제도는?",
+    "answer": "육아휴직제",
+    "explanation": "육아휴직제는 최대 1년간 사용할 수 있다."
+  },
+  {
+    "id": 35,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "생명체의 기능을 활용하여 인간에게 유용한 물질을 만드는 기술은?",
+    "choices": ["정보기술", "생명기술", "환경기술", "재료기술"],
+    "answer": 1,
+    "explanation": "생명체의 기능을 활용하는 기술을 생명기술이라고 한다."
+  },
+  {
+    "id": 36,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "생명기술의 특징이 아닌 것은?",
+    "choices": ["부가가치가 높다", "적용 범위가 넓다", "생활과 무관하다", "관련 학문이 다양하다"],
+    "answer": 2,
+    "explanation": "생명기술은 우리 생활에 직접적인 영향을 준다."
+  },
+  {
+    "id": 37,
+    "difficulty": 3,
+    "type": "short",
+    "question": "효모를 이용하여 빵과 술을 만든 기술은?",
+    "answer": "발효",
+    "explanation": "고대부터 효모를 이용한 발효 기술이 사용되었다."
+  },
+  {
+    "id": 38,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "현미경을 개발하고 세포를 발견한 사람은?",
+    "choices": ["플레밍", "멘델", "로버트 훅", "왓슨"],
+    "answer": 2,
+    "explanation": "로버트 훅은 현미경으로 세포를 발견하였다."
+  },
+  {
+    "id": 39,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "천연두 백신을 개발한 사람은?",
+    "choices": ["제너", "플레밍", "멘델", "크릭"],
+    "answer": 0,
+    "explanation": "에드워드 제너는 천연두 백신을 개발하였다."
+  },
+  {
+    "id": 40,
+    "difficulty": 3,
+    "type": "short",
+    "question": "완두콩 실험을 통해 유전 법칙을 발견한 사람은?",
+    "answer": "멘델",
+    "explanation": "멘델은 완두콩 실험을 통해 유전 법칙을 발견하였다."
+  },
+  {
+    "id": 41,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "페니실린을 발견한 사람은?",
+    "choices": ["플레밍", "왓슨", "제너", "멘델"],
+    "answer": 0,
+    "explanation": "플레밍은 항생 물질인 페니실린을 발견하였다."
+  },
+  {
+    "id": 42,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "DNA 이중나선 구조를 규명한 사람은?",
+    "choices": ["왓슨과 크릭", "플레밍과 멘델", "훅과 제너", "다윈과 뉴턴"],
+    "answer": 0,
+    "explanation": "왓슨과 크릭이 DNA 이중나선 구조를 규명하였다."
+  },
+  {
+    "id": 43,
+    "difficulty": 3,
+    "type": "short",
+    "question": "체세포 복제로 탄생한 복제 양의 이름은?",
+    "answer": "돌리",
+    "explanation": "복제 양 돌리는 체세포 복제로 탄생하였다."
+  },
+  {
+    "id": 44,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "인간 유전자 지도를 만든 프로젝트는?",
+    "choices": ["게놈 프로젝트", "아폴로 프로젝트", "맨해튼 프로젝트", "달 탐사 프로젝트"],
+    "answer": 0,
+    "explanation": "인간 게놈 프로젝트는 인간 유전자 지도를 만드는 사업이다."
+  },
+  {
+    "id": 45,
+    "difficulty": 3,
+    "type": "short",
+    "question": "원래 핵을 제거한 뒤 다른 생물의 핵을 이식하는 기술은?",
+    "answer": "핵치환",
+    "explanation": "핵치환은 우수한 유전 형질을 가진 생물을 복제할 때 사용된다."
+  },
+  {
+    "id": 46,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "핵치환 기술의 활용 사례가 아닌 것은?",
+    "choices": ["우수한 동식물 복제", "멸종위기 동식물 보존", "대량 생산", "화석 생성"],
+    "answer": 3,
+    "explanation": "화석 생성은 핵치환 기술과 관련이 없다."
+  },
+  {
+    "id": 47,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "생명기술의 특징으로 옳은 것은?",
+    "choices": ["적용 범위가 좁다", "생활과 관련이 없다", "부가가치가 높다", "잠재력이 낮다"],
+    "answer": 2,
+    "explanation": "생명기술은 잠재력과 부가가치가 매우 높다."
+  },
+  {
+    "id": 48,
+    "difficulty": 3,
+    "type": "short",
+    "question": "생명기술은 생명체의 무엇을 활용하는 기술인가?",
+    "answer": "기능",
+    "explanation": "생명기술은 생명체의 기능을 활용하는 기술이다."
+  },
+  {
+    "id": 49,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "생명기술과 관련된 학문 분야의 특징은?",
+    "choices": ["한 분야만 관련", "관련 학문이 매우 다양", "과학과 무관", "의학과만 관련"],
+    "answer": 1,
+    "explanation": "생명기술은 관련 학문 분야가 매우 다양하다."
+  },
+  {
+    "id": 50,
+    "difficulty": 3,
+    "type": "short",
+    "question": "생명기술은 우리 생활에 어떤 영향을 주는가?",
+    "answer": "직접적인 영향",
+    "explanation": "생명기술은 우리 생활에 직접적인 영향을 미친다."
+  },
+  {
+    "id": 51,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "영아기의 발달 과업이 아닌 것은?",
+    "choices": ["젖떼기", "애착 관계 형성", "말하기", "진로 탐색"],
+    "answer": 3,
+    "explanation": "진로 탐색은 청소년기의 발달 과업이다."
+  },
+  {
+    "id": 52,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "유아기의 발달 과업은?",
+    "choices": ["언어 발달", "직업 선택", "결혼", "은퇴 적응"],
+    "answer": 0,
+    "explanation": "유아기에는 언어 발달과 생활 습관 형성이 중요하다."
+  },
+  {
+    "id": 53,
+    "difficulty": 1,
+    "type": "short",
+    "question": "청소년기의 대표적인 발달 과업은 무엇인가?",
+    "answer": "자아 정체감 형성",
+    "explanation": "청소년기의 중요한 과업은 자아 정체감 형성이다."
+  },
+  {
+    "id": 54,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "노년기의 발달 과업은?",
+    "choices": ["학교 적응", "죽음 대비", "배우자 선택", "양육"],
+    "answer": 1,
+    "explanation": "노년기에는 죽음 대비와 은퇴 적응이 중요하다."
+  },
+  {
+    "id": 55,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "가정 형성기의 기간은?",
+    "choices": ["첫 자녀 출산 후", "결혼~첫 자녀 출산 전", "첫 자녀 독립 후", "노년기"],
+    "answer": 1,
+    "explanation": "가정 형성기는 결혼부터 첫 자녀 출산 전까지이다."
+  },
+  {
+    "id": 56,
+    "difficulty": 1,
+    "type": "short",
+    "question": "가정 확대기의 대표적인 발달 과업은 무엇인가?",
+    "answer": "부모 역할 습득",
+    "explanation": "가정 확대기에는 부모 역할 습득이 중요하다."
+  },
+  {
+    "id": 57,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "생애 설계의 원리 중 자신의 수준에 맞게 계획하는 것은?",
+    "choices": ["적합성", "현실성", "자발성", "종합성"],
+    "answer": 0,
+    "explanation": "적합성은 자신의 수준에 맞게 계획하는 것이다."
+  },
+  {
+    "id": 58,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "스스로 계획을 실천하는 원리는?",
+    "choices": ["융통성", "종합성", "자발성", "현실성"],
+    "answer": 2,
+    "explanation": "자발성은 스스로 계획을 실천하는 것이다."
+  },
+  {
+    "id": 59,
+    "difficulty": 1,
+    "type": "short",
+    "question": "전체 생활을 반영하여 계획하는 원리는?",
+    "answer": "종합성",
+    "explanation": "종합성은 전체 생활을 고려하는 것이다."
+  },
+  {
+    "id": 60,
+    "difficulty": 1,
+    "type": "multiple",
+    "question": "앞으로 평생 나아가야 할 길을 의미하는 것은?",
+    "choices": ["직업", "진로", "일", "직업윤리"],
+    "answer": 1,
+    "explanation": "진로는 삶의 전 과정에서 나아가야 할 길이다."
+  },
+  {
+    "id": 61,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "직업의 중요성이 아닌 것은?",
+    "choices": ["경제적 안정", "자아 실현", "인생의 가치", "노동 회피"],
+    "answer": 3,
+    "explanation": "직업은 노동을 회피하는 수단이 아니다."
+  },
+  {
+    "id": 62,
+    "difficulty": 2,
+    "type": "short",
+    "question": "선택, 지속성, 만족감과 밀접한 관련이 있는 것은?",
+    "answer": "흥미",
+    "explanation": "흥미는 선택과 만족감에 영향을 준다."
+  },
+  {
+    "id": 63,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "후천적인 노력으로 변화할 수 있는 것은?",
+    "choices": ["적성", "성격", "나이", "유전자"],
+    "answer": 1,
+    "explanation": "성격은 후천적인 노력으로 변화할 수 있다."
+  },
+  {
+    "id": 64,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "부모의 기대와 가족 가치관은 어떤 요소에 속하는가?",
+    "choices": ["신체적 조건", "흥미", "가정·사회적 환경", "적성"],
+    "answer": 2,
+    "explanation": "부모의 기대와 가족 가치관은 가정·사회적 환경이다."
+  },
+  {
+    "id": 65,
+    "difficulty": 2,
+    "type": "short",
+    "question": "전문 지식과 경험을 바탕으로 직업을 수행하는 자세를 무엇이라고 하는가?",
+    "answer": "전문의식",
+    "explanation": "전문의식은 전문 지식과 경험을 바탕으로 한다."
+  },
+  {
+    "id": 66,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "다음 중 바람직한 직업관은?",
+    "choices": ["금전 만능주의", "학벌 중시", "사회적 역할 실현", "편안한 직업 선호"],
+    "answer": 2,
+    "explanation": "사회적 역할 실현은 바람직한 직업관이다."
+  },
+  {
+    "id": 67,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "저출산의 원인으로 알맞지 않은 것은?",
+    "choices": ["초혼 연령 상승", "육아 비용 상승", "평균 수명 증가", "청년 고용 증가"],
+    "answer": 3,
+    "explanation": "청년 고용 증가는 저출산 해결 방안이다."
+  },
+  {
+    "id": 68,
+    "difficulty": 2,
+    "type": "short",
+    "question": "저출산·고령화로 감소하는 인구는?",
+    "answer": "생산 가능 인구",
+    "explanation": "저출산과 고령화로 생산 가능 인구가 감소한다."
+  },
+  {
+    "id": 69,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "고령화 대비책 중 개인 차원에 해당하는 것은?",
+    "choices": ["정년 연장", "건강 관리", "노인 일자리 창출", "재취업 기회 확대"],
+    "answer": 1,
+    "explanation": "건강 관리는 개인 차원의 대비책이다."
+  },
+  {
+    "id": 70,
+    "difficulty": 2,
+    "type": "multiple",
+    "question": "양성평등 인식 확산은 어느 차원의 노력인가?",
+    "choices": ["개인·가족", "기업", "사회·국가", "학교"],
+    "answer": 2,
+    "explanation": "양성평등 인식 확산은 사회·국가 차원의 노력이다."
+  },
+  {
+    "id": 71,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "업무량에 따라 근무 시간을 조정하는 제도는?",
+    "choices": ["재택근무제", "탄력적 근로시간제", "원격근무제", "육아휴직제"],
+    "answer": 1,
+    "explanation": "탄력적 근로시간제는 업무량에 따라 근무 시간을 조정한다."
+  },
+  {
+    "id": 72,
+    "difficulty": 3,
+    "type": "short",
+    "question": "근무 시간을 개인이 조정할 수 있는 제도는?",
+    "answer": "선택적 근로시간제",
+    "explanation": "선택적 근로시간제는 근무 시간을 개인이 조정한다."
+  },
+  {
+    "id": 73,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "만 12세 이하 자녀를 둔 직장인이 근무 시간을 단축할 수 있는 제도는?",
+    "choices": ["출산 전후 휴가제", "육아기 근로시간 단축제", "배우자 출산 휴가제", "재택근무제"],
+    "answer": 1,
+    "explanation": "육아기 근로시간 단축제는 근무 시간을 단축할 수 있다."
+  },
+  {
+    "id": 74,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "생명기술의 특징으로 가장 알맞은 것은?",
+    "choices": ["잠재력이 낮다", "적용 범위가 좁다", "부가가치가 높다", "생활과 무관하다"],
+    "answer": 2,
+    "explanation": "생명기술은 잠재력과 부가가치가 매우 높다."
+  },
+  {
+    "id": 75,
+    "difficulty": 3,
+    "type": "short",
+    "question": "천연두 백신을 개발한 사람은?",
+    "answer": "에드워드 제너",
+    "explanation": "에드워드 제너는 천연두 백신을 개발하였다."
+  },
+  {
+    "id": 76,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "항생 물질인 페니실린을 발견한 사람은?",
+    "choices": ["멘델", "플레밍", "왓슨", "제너"],
+    "answer": 1,
+    "explanation": "플레밍은 페니실린을 발견하였다."
+  },
+  {
+    "id": 77,
+    "difficulty": 3,
+    "type": "short",
+    "question": "DNA 이중나선 구조를 규명한 두 사람은?",
+    "answer": "왓슨과 크릭",
+    "explanation": "왓슨과 크릭은 DNA 이중나선 구조를 규명하였다."
+  },
+  {
+    "id": 78,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "복제 양 돌리는 어떤 방법으로 탄생했는가?",
+    "choices": ["유전자 조작", "체세포 복제", "발효", "교배"],
+    "answer": 1,
+    "explanation": "복제 양 돌리는 체세포 복제로 탄생하였다."
+  },
+  {
+    "id": 79,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "인간 게놈 프로젝트의 목적은?",
+    "choices": ["우주 탐사", "인간 유전자 지도 제작", "백신 개발", "세포 발견"],
+    "answer": 1,
+    "explanation": "인간 게놈 프로젝트는 인간 유전자 지도를 만드는 프로젝트이다."
+  },
+  {
+    "id": 80,
+    "difficulty": 3,
+    "type": "short",
+    "question": "핵치환 기술의 활용 사례 한 가지를 쓰시오.",
+    "answer": "멸종위기 동식물 보존",
+    "alternativeAnswers": ["우수한 동식물 복제", "대량생산"],
+    "explanation": "핵치환 기술은 우수한 동식물 복제와 멸종위기 동식물 보존 등에 활용된다."
+  },
+  {
+    "id": 81,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "생명기술이 우리 생활에 미치는 영향은?",
+    "choices": ["영향이 없다", "간접적 영향만 있다", "직접적인 영향을 준다", "부정적 영향만 준다"],
+    "answer": 2,
+    "explanation": "생명기술은 우리 생활에 직접적인 영향을 미친다."
+  },
+  {
+    "id": 82,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "생명기술과 관련된 학문 분야는?",
+    "choices": ["매우 제한적이다", "한 분야만 관련된다", "매우 다양하다", "의학만 관련된다"],
+    "answer": 2,
+    "explanation": "생명기술은 다양한 학문 분야와 관련되어 있다."
+  },
+  {
+    "id": 83,
+    "difficulty": 3,
+    "type": "short",
+    "question": "고대 이집트에서 효모를 이용하여 만든 식품 두 가지는?",
+    "answer": "빵, 술",
+    "alternativeAnswers": ["술, 빵"],
+    "explanation": "고대 이집트에서는 효모를 이용해 빵과 술을 만들었다."
+  },
+  {
+    "id": 84,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "다음 중 생애 설계의 원리가 아닌 것은?",
+    "choices": ["현실성", "자발성", "종합성", "경쟁성"],
+    "answer": 3,
+    "explanation": "생애 설계의 원리에는 경쟁성이 포함되지 않는다."
+  },
+  {
+    "id": 85,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "다음 중 직업의 중요성이 아닌 것은?",
+    "choices": ["경제적 안정", "자아실현", "사회활동 참여", "여가 감소"],
+    "answer": 3,
+    "explanation": "여가 감소는 직업의 중요성이 아니다."
+  },
+  {
+    "id": 86,
+    "difficulty": 3,
+    "type": "short",
+    "question": "직업을 통해 얻을 수 있는 것 두 가지를 쓰시오.",
+    "answer": "경제적 안정, 자아실현",
+    "alternativeAnswers": [
+      "자아실현, 경제적 안정",
+      "사회활동 참여, 경제적 안정",
+      "인생의 가치, 자아실현"
+    ],
+    "explanation": "직업은 경제적 안정, 자아실현, 사회활동 참여 등의 의미가 있다."
+  },
+  {
+    "id": 87,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "다음 중 왜곡된 직업관은?",
+    "choices": ["사회적 역할 실현", "가치 실현", "금전 만능주의", "생계 유지"],
+    "answer": 2,
+    "explanation": "금전 만능주의는 왜곡된 직업관이다."
+  },
+  {
+    "id": 88,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "저출산·고령화의 영향으로 옳은 것은?",
+    "choices": ["생산 가능 인구 증가", "국가 경쟁력 강화", "세대 간 갈등 증가", "평균 연령 감소"],
+    "answer": 2,
+    "explanation": "저출산·고령화는 세대 간 갈등 증가를 초래할 수 있다."
+  },
+  {
+    "id": 89,
+    "difficulty": 3,
+    "type": "short",
+    "question": "일·가정 양립을 위해 기업이 할 수 있는 노력 한 가지를 쓰시오.",
+    "answer": "유연 근무 활용도 늘리기",
+    "alternativeAnswers": ["회식 야근 줄이기", "육아부담 나누기"],
+    "explanation": "기업은 유연 근무제 확대, 회식·야근 줄이기 등을 통해 일·가정 양립을 지원할 수 있다."
+  },
+  {
+    "id": 90,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "가사노동 수행 표준을 낮추는 방법의 예는?",
+    "choices": ["배달 이용", "주기 늘리기", "건조기 사용", "전문기관 이용"],
+    "answer": 1,
+    "explanation": "가사노동 수행 표준 낮추기는 청소 주기를 늘리는 것 등이 있다."
+  },
+  {
+    "id": 91,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "다음 중 가족 생활 주기에 속하지 않는 것은?",
+    "choices": ["가정 형성기", "가정 확대기", "가정 축소기", "가정 완성기"],
+    "answer": 3,
+    "explanation": "가정 완성기는 가족 생활 주기에 포함되지 않는다."
+  },
+  {
+    "id": 92,
+    "difficulty": 3,
+    "type": "short",
+    "question": "가정 축소기의 대표적인 발달 과업은?",
+    "answer": "조부모 역할 수행",
+    "explanation": "가정 축소기에는 노후 생활 준비와 조부모 역할 수행이 중요하다."
+  },
+  {
+    "id": 93,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "다음 중 생애 설계의 중요성이 아닌 것은?",
+    "choices": ["만족스러운 삶", "생활 변화 대처", "삶의 책임감", "타인의 삶 결정"],
+    "answer": 3,
+    "explanation": "생애 설계는 자신의 삶을 계획하는 것이다."
+  },
+  {
+    "id": 94,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "진로 설계 과정의 첫 단계는?",
+    "choices": ["진로 탐색", "이해하기", "직업 선택", "진로 준비"],
+    "answer": 1,
+    "explanation": "진로 설계는 자신을 이해하는 것부터 시작한다."
+  },
+  {
+    "id": 95,
+    "difficulty": 3,
+    "type": "short",
+    "question": "진로 설계 과정에서 자신을 파악하는 단계를 무엇이라고 하는가?",
+    "answer": "이해하기",
+    "explanation": "진로 설계의 첫 단계는 자신을 이해하는 것이다."
+  },
+  {
+    "id": 96,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "진로 설계 과정의 순서로 옳은 것은?",
+    "choices": [
+      "이해하기→진로 탐색→잠정적 진로 선택→진로 선택 및 준비",
+      "진로 탐색→이해하기→진로 선택",
+      "진로 선택→이해하기→진로 준비",
+      "진로 준비→진로 탐색→이해하기"
+    ],
+    "answer": 0,
+    "explanation": "진로 설계는 이해하기→진로 탐색→잠정적 진로 선택→진로 선택 및 준비 순이다."
+  },
+  {
+    "id": 97,
+    "difficulty": 3,
+    "type": "short",
+    "question": "직업을 통해 사회에 기여하려는 자세를 무엇이라고 하는가?",
+    "answer": "봉사의식",
+    "explanation": "봉사의식은 공동체에 봉사하려는 자세이다."
+  },
+  {
+    "id": 98,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "다음 중 고령화 대비책이 아닌 것은?",
+    "choices": ["평생교육", "건강관리", "정년 연장", "출산 장려금"],
+    "answer": 3,
+    "explanation": "출산 장려금은 저출산 대책이다."
+  },
+  {
+    "id": 99,
+    "difficulty": 3,
+    "type": "multiple",
+    "question": "다음 중 일·가정 양립을 위한 개인·가족 차원의 노력은?",
+    "choices": ["양성평등한 가치관", "정년 연장", "재취업 기회 확대", "경력 단절 지원"],
+    "answer": 0,
+    "explanation": "양성평등한 가치관은 개인·가족 차원의 노력이다."
+  },
+  {
+    "id": 100,
+    "difficulty": 3,
+    "type": "short",
+    "question": "생명기술의 대표적인 특징 한 가지를 쓰시오.",
+    "answer": "부가가치가 높다",
+    "alternativeAnswers": [
+      "잠재력이 높다",
+      "관련 학문 분야가 다양하다",
+      "적용 대상 범위가 넓다"
+    ],
+    "explanation": "생명기술은 잠재력이 높고, 부가가치가 매우 높으며 적용 범위가 넓다."
+  }
+]
